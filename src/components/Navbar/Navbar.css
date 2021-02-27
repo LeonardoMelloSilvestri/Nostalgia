@@ -1,0 +1,17 @@
+.side-nav li>a {
+  color: white;
+  font-size: 18px;
+  border-bottom: 1px solid white;
+  cursor: pointer !important;
+}
+
+.nav-wrapper li>a {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.side-nav {
+  width: 200px !important;
+  background: rgb(61,77,163);
+  background: linear-gradient(90deg, rgba(61,77,163,1) 10%, rgba(63,81,181,1) 77%, rgba(92,107,192,1) 100%);
+}

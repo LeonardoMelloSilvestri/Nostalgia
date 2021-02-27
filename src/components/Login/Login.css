@@ -1,0 +1,43 @@
+.login-card {
+  border-radius: 8px;       
+  max-width: 430px !important;
+  margin: auto;
+}
+
+.login-card .card-title {
+  margin-bottom: 10px !important;
+}
+
+.login-card label {
+  color: #616161 ;
+  font-weight: 500;
+}
+
+.login-card .card-title {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.btn-login {
+  width: 100%;
+  font-size: 18px;
+  
+}
+
+.controller-img {
+  width: 120px !important;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #ffa726 ;
+  -webkit-box-shadow: 0 1px 0 0 #ffa726 ;
+  box-shadow: 0 1px 0 0 #ffa726 ;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 96%;
+  }
+}
